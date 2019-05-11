@@ -24,9 +24,4 @@ public class XbonacciTest {
         assertArrayEquals(new double []{0,0,1,1,2,4,7,13,24,44}, variabonacci.tribonacci(new double []{0,0,1},10), precision);
         assertArrayEquals(new double []{0,1,1,2,4,7,13,24,44,81}, variabonacci.tribonacci(new double []{0,1,1},10), precision);
     }
-
-    @Test
-    public void given_3_numbers_as_array_gets_next_number_correctly() {
-        assertEquals(3, variabonacci.getNextNumber(new double[]{1,1,1}), precision);
-    }
 }
